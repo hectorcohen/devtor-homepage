@@ -2,7 +2,8 @@ import Link from 'next/link'
 import Image from 'next/image'
 import styled from '@emotion/styled'
 import { Text, useColorModeValue } from '@chakra-ui/react'
-import logo from '../public/logo-dark.png'
+import logoDark from '../public/logo-dark.png'
+import logoLight from '../public/logo-light.png'
 
 const LogoBox = styled.span`
     font-weight: bold;
@@ -22,7 +23,7 @@ const Logo = ( ) => {
         <Link href='/'>
             <a>
                 <LogoBox>
-                    <Image src={logo} width={30} height={30} alt="logo" />
+                    <Image src={useColorModeValue(logoDark, logoLight )} width={30} height={30} alt="logo" />
                     <Text 
                         color={useColorModeValue('gray.800', 'whiteApha.900')}
                         fontFamily='M PLUS Rounded 1c'

@@ -76,7 +76,7 @@ const Navbar = props => {
                     mt={{base: 4, nmt: 0}}
                 >
                     <LinkItem href='/works' path={path}>
-                        Works
+                        Works 
                     </LinkItem>
                     <LinkItem href='/posts' path={path}>
                         Posts
