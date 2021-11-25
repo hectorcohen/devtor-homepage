@@ -46,7 +46,7 @@ const Page = () => {
                     Héctor is a freelancer and a frontend developer based in Colombia with a passion for building digital services/stuff he wants. he has a knack for all things design products, from planning and designing all the way to solve real life problems with code. When not online, loves hanging out with phone camera and recording his place in the world.
                 </Paragraph>
                 <Box align="center" my={4}>
-                    <NextLink href="/works">
+                    <NextLink href="https://github.com/hectorcohen">
                         <Button rightIcon={<ChevronRightIcon />} colorScheme={useColorModeValue('yellow', 'teal')}>
                             My portfolio
                         </Button>
@@ -79,7 +79,7 @@ const Page = () => {
             </Section>  
             <Section delay={0.3}>
                 <Heading as="h3" variant="section-title">
-                   I ❤️
+                   I L❤️ve
                 </Heading>
                 <Paragraph>
                    <BioSection>
