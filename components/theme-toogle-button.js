@@ -6,7 +6,7 @@ const ThemeToogleButton = () => {
 
     return (
         <IconButton aria-label="Toogle theme"
-            colorScheme={useColorModeValue('yellow', 'purple')}
+            colorScheme={useColorModeValue('purple', 'yellow')}
             icon={useColorModeValue(<MoonIcon/>, <SunIcon/>)}
             onClick={toggleColorMode}
             mr={3}
