@@ -17,7 +17,7 @@ const Works = () => {
                         thumbnail={work_one}
                     >
                         A Fintech that facilitates the access to the financing business for its clients 
-                        offers financing to its clients, increases its sales, expands and diversifies its income.
+                        offers financing to its clients, increases its sales, expands and diversifies its income...
                     </WorkGridItem>
                 </Section>
             </SimpleGrid>
