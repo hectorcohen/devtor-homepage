@@ -1,8 +1,8 @@
 import { Container, Heading, SimpleGrid } from '@chakra-ui/react'
 import Section from '../components/section'
 import { WorkGridItem } from '../components/grid-item'
-import work_one from "../public/images/desktop-creditoo.png"
 
+import work_one from "../public/images/desktop-creditoo.png"
 const Works = () => {
     return (
         <Container mt={2}>

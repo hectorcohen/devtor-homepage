@@ -29,6 +29,7 @@ export const WorkGridItem = ({children, title, thumbnail}) => (
                     className="grid-item-thumbnail"
                     placeholder="blur"
                     loading="lazy"
+                    rounded='lg'
                 />
                 <Heading mt={2} variant="section-title" fontSize={20}>{title}</Heading>
              <Text fontSize={14}>{children}</Text>
