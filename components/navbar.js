@@ -106,9 +106,6 @@ const Navbar = props => {
                                 <NextLink href="/posts" passHref>
                                     <MenuItem as={Link}>Posts</MenuItem> 
                                 </NextLink>
-                                <NextLink href="/photos" passHref>
-                                    <MenuItem as={Link}>Photos</MenuItem> 
-                                </NextLink>
                                 <MenuItem as={Link} href="https://github.com/hectorcohen">View Source ❤️</MenuItem> 
                             </MenuList>
                         </Menu>
