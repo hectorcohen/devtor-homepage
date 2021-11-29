@@ -100,10 +100,10 @@ const Navbar = props => {
                                 <NextLink href="/works" passHref>
                                     <MenuItem as={Link}>Works</MenuItem> 
                                 </NextLink>
-                                <NextLink href="/posts" passHref>
-                                    <MenuItem as={Link}>Posts</MenuItem> 
+                                <NextLink href="/photos" passHref>
+                                    <MenuItem as={Link}>Photos</MenuItem> 
                                 </NextLink>
-                                <MenuItem as={Link} href="https://github.com/hectorcohen">View Source ❤️</MenuItem> 
+                                <MenuItem as={Link} href="https://github.com/hectorcohen/devtor-homepage">View Source ❤️</MenuItem> 
                             </MenuList>
                         </Menu>
                     </Box>

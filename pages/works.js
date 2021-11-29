@@ -6,7 +6,7 @@ import work_one from "../public/images/desktop-creditoo.png"
 const Works = () => {
     return (
         <Container mt={2}>
-            <Heading as="h3" fontSize={20} mb={4}>
+            <Heading as="h3" variant="section-title" fontSize={20} mb={4}>
                 Works
             </Heading>
             <SimpleGrid column={[1, 1, 2]} gap={6}>

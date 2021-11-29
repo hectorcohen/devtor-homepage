@@ -1,5 +1,5 @@
 import Image from 'next/image'
-import {Box, Text, LinkBox, LinkOverlay} from '@chakra-ui/react'
+import {Box, Text, LinkBox, LinkOverlay, Heading} from '@chakra-ui/react'
 import { Global } from '@emotion/react'
 
 export const GridItem = ({children, href, title, thumbnail}) => (
@@ -30,7 +30,7 @@ export const WorkGridItem = ({children, title, thumbnail}) => (
                     placeholder="blur"
                     loading="lazy"
                 />
-                <Text mt={2} fontSize={20}>{title}</Text>
+                <Heading mt={2} variant="section-title" fontSize={20}>{title}</Heading>
              <Text fontSize={14}>{children}</Text>
             </LinkBox>
     </Box>
