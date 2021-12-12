@@ -4,7 +4,7 @@ import { mode } from '@chakra-ui/theme-tools'
 const styles = {
     global : props => ({
         body: {
-            bg: mode('#f0e7db', "#202023")(props)
+            bg: mode('#ffffff', "#202023")(props)
         }
     })
 }
@@ -18,6 +18,11 @@ const components = {
                 textUnderLineOffset: 6,
                 TextDecorationColor: '#525252',
                 textDecorationThickness: 4,
+                marginTop: 3,
+                marginBottom: 4
+            },
+            'section-subtitle' : {
+                fontSize: 20,
                 marginTop: 3,
                 marginBottom: 4
             }

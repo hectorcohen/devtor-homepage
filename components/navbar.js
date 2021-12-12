@@ -82,6 +82,9 @@ const Navbar = props => {
                     <LinkItem href='/photos' path={path}>
                         Photos
                     </LinkItem>
+                    <LinkItem href='/uses' path={path}>
+                        Uses
+                    </LinkItem>
                 </Stack>
                 <Box flex={1} align="right">    
                     <Box ml={2} display={{base: 'inline-block', mb: 'none'}}>
