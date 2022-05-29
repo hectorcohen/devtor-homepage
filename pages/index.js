@@ -5,7 +5,9 @@ Container,
 Box, 
 Heading, 
 Image, 
-useColorModeValue
+    useColorModeValue,
+    ListItem,
+    UnorderedList,
 } from '@chakra-ui/react'
 import NextLink from 'next/link'
 import Link from 'next/link'
@@ -27,7 +29,7 @@ const Page = () => {
                     <Heading as="h2" variant="page-title">
                         Héctor Cohen
                     </Heading>
-                    <p>Digital craftzman ( Artist / Devloper / Designer )</p>
+                    <p>Digital craftzman ( Artist / Developer / Designer )</p>
                 </Box>
                 <Box 
                     flexShrink={0} 
@@ -53,10 +55,9 @@ const Page = () => {
                     </NextLink>
                 </Box>
             </Section>
-
             <Section delay={0.2}>
                 <Heading as="h3" variant="section-title">
-                    Bio    
+                    Bio ♥️   
                 </Heading> 
                 <BioSection>
                     <BioYear>
@@ -76,7 +77,34 @@ const Page = () => {
                     <BioYear>September 2021</BioYear>
                     Works in Creditoo, Barranquilla, Colombia
                 </BioSection>
-            </Section>  
+            </Section>
+            <Section delay={0.2}>
+                <Heading as="h3" variant="section-title">
+                    Skills 💪
+                </Heading>
+                <UnorderedList>
+                    <ListItem><Paragraph>Strong JavaScript skills</Paragraph></ListItem>
+                    <ListItem><Paragraph>Strong knowledge of css, preprocessors, BEM, and CSS’s modules.</Paragraph></ListItem>
+                    <ListItem><Paragraph>React/Redux experience on commercial projects.</Paragraph></ListItem>
+                    <ListItem><Paragraph>Knowledge of Redux, Redux toolkit, React hooks and Context API.</Paragraph></ListItem>
+                    <ListItem><Paragraph>Requirements with web visual alignment and structure.</Paragraph></ListItem>
+                    <ListItem><Paragraph>Proven experience with implementation and consumption of RESTful web services.</Paragraph></ListItem>
+
+                </UnorderedList>
+            </Section>
+            <Section delay={0.2}>
+                <Heading as="h3" variant="section-title">
+                   Plus ➕ 
+                </Heading>
+                <UnorderedList>
+                    <ListItem><Paragraph>Experience with Node.js, Express.js, Socket.io, MongoDB, PostgresQL, Python, Django.</Paragraph></ListItem>
+                    <ListItem><Paragraph>Knowledge of UX/UI/AI.</Paragraph></ListItem>
+                    <ListItem><Paragraph>Functional programming.</Paragraph></ListItem>
+                    <ListItem><Paragraph>Deployments in: Google Cloud Platform, Vercel , Heroku.</Paragraph></ListItem>
+                    <ListItem><Paragraph>Web scraping and automatizations with Python.</Paragraph></ListItem>
+                </UnorderedList>
+            </Section>
+              
             <Section delay={0.3}>
                 <Heading as="h3" variant="section-title">
                    I L❤️ve
