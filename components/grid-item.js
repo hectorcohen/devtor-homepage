@@ -23,6 +23,8 @@ export const GridItem = ({children, href, title, thumbnail}) => (
 export const WorkGridItem = ({children, title, thumbnail}) => (
     <Box>
             <LinkBox>
+                <Heading my={4} variant="section-title" fontSize={20}>{title}</Heading>
+                <Box border='2px solid #EEEE' borderRadius={2}>
                 <Image 
                     src={thumbnail}
                     alt={title}
@@ -31,8 +33,8 @@ export const WorkGridItem = ({children, title, thumbnail}) => (
                     loading="lazy"
                     rounded='lg'
                 />
-                <Heading mt={2} variant="section-title" fontSize={20}>{title}</Heading>
-             <Text fontSize={14}>{children}</Text>
+                </Box>
+             <Text mt={2} fontSize={14}>{children}</Text>
             </LinkBox>
     </Box>
 )
