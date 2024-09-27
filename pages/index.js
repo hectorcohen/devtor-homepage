@@ -36,7 +36,7 @@ const Page = () => {
                     ml={{md: 6}}
                     align="center"
                 >
-                    <Image borderColor={useColorModeValue('orange', 'whiteAlpha.800')} borderWidth={3} borderStyle="solid" maxWidth="150px" display="inline-block" borderRadius="full" src='/images/profile.png' alt="profile"/>
+                    <Image borderColor={useColorModeValue('orange', 'whiteAlpha.800')} borderWidth={3} borderStyle="solid" width='200px' height='200px' objectFit="cover" display="inline-block" borderRadius="full" src='/images/profile.jpg' alt="profile"/>
                 </Box>
             </Box>
             <Section delay={0.1}>
