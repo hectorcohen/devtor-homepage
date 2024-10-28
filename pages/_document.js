@@ -9,6 +9,8 @@ export default class Document extends NextDocument {
                 <Head>
                     <script defer data-domain="devtor-homepage.vercel.app" src="https://plausible.io/js/plausible.js"></script>
                     <script src="https://feedback-widtget.vercel.app//widget.umd.js"></script>
+                    <script defer data-domain="devtor-homepage.vercel.app" src="https://haruji-analytics.vercel.app/tracking-script.js">
+</script>
                 </Head>
                 <body>
                     <ColorModeScript  initialColorMode={theme.config.initialColorMode} />
